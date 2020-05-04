@@ -1,0 +1,169 @@
+<!--Since I am a beginner ,so I have many mistake to make a webpage.
+When I will create more and more webpage  and learn more knowledge about web devoloping then my work will be like act as proffesonal web devoloper.
+ So, please considering that. I am trying my best to create this website home page.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/jpg" href="favicon.png">
+        <title>Vacation Rentals, Homes, Experiences & Places</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <!--This section contains: logo, site name etc.-->
+            <div class="cover-div">
+                <img id="logo" src="airbnb.jpg" title="https://www.airbnb.com"><!--
+                --><h3 id="sitename" title="https://www.airbnb.com">airbnb</h3>
+                <!--This section contain: navigation menu-->
+                <ul class="nav-menu">
+                    <li><a href="https://www.airbnb.com/signup_login" style="margin-right: 30px; font-display: block;background-color: #9C6B67;padding:15px; border-radius: 25px;">Sign up</a></li>
+                    <li><a href="https://www.airbnb.com/login">Login</a></li>
+                    <li><a href="https://www.airbnb.com/help">Help</a></li>
+                    <li><a href="https://www.airbnb.com/host/experiences">Host your experience</a></li>
+                    <li><a href="https://www.airbnb.com/host/homes">Host your home</a></li>
+                </ul>
+                <ul style="float: right;" class="nav-setting">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">🌐<span class="caret" style="color: white;"></span></a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="https://www.airbnb.com/account-settings/language" target="-blank" style="color: black;padding: 15px;" >🌐&nbsp; English(US)</a><p></p>
+                          <a class="dropdown-item" href="https://www.airbnb.com/account-settings/currency" target="-blank" style="color: black;">&nbsp; $ &nbsp;&nbsp;USD</a>
+                        </div>
+                </li>
+                </ul><br><br><br><br>
+                <!--This section contain : Booking Info-->
+                <div class="book">
+                    <h2 id="book-h1"><strong>Book Unique Places to stay and thing to do.</strong></h2>
+                    <p style="margin-left: 20px;"><b>WHERE</b></p>
+                    <input type="text" id="book-text" name ="input" size="30" placeholder="Anywhere"><p></p>
+                    <p style="margin-left: 20px;"><b>CHECK-IN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CHECKOUT</b></p>
+                    <input type="date" id="book-chkin"><!--
+
+                    --><input type="date" id="book-chkot"><p></p>
+                    <p style="margin-left:20px;"><b>GUESTS</b></p>
+                    <select class="guest-slt">
+                        <option>Guests</option>
+                        <option>Adults</option>
+                        <option>Children</option>
+                        <option>Infants</option>
+                    </select><p></p><br>
+                    <input type="button" value="Search" id="book-srch">
+                </div>
+                <!--This section contain: Airbnb support community-->
+                <div class="cover-div2">
+                    <p>Airbnb is taking steps to support our community in this time of need.</p>
+                    <a href="https://www.airbnb.com/#covid-19-learn-more" id="cvrd2h">Learn more</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!--This section conatain : Corona Crisis-->   
+            <div class="covid-left">
+                <h2><b>Homes for people on the frontlines of the COVID-19 crisis</b></h2>
+            </div>
+            <div class="covid-right">
+                <p>To help battle the coronavirus, Airbnb is partnering with our hosts to connect 100,000 healthcare providers, relief workers, and first responders with clean, convenient places to stay that allow them to be close to their patients — and safely distanced from their own families. We may be apart, but we’ll get through this together.</p>
+                <a href="https://www.airbnb.com/openhomes/covid19relief" ><b>Host or donate</b></a>
+            </div>
+            <div class="clear-div"></div><hr>
+            <!--This section contain : Latest cancelation like  stays, experience, advantures-->
+            <div class="latest-info">
+                <h4 style="margin-left:  15px; margin-top: 20px;"><b>Latest info about cancellations</b></h4>
+                <p style="margin-left: 15px;">For travel impacted by the coronavirus, we’re offering updated cancellation options to help guests and hosts during this difficult time.&nbsp;<a style="color: black; text-decoration: underline;" href="https://www.airbnb.com/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19"><b>Learn more</b></a></p>
+            </div>
+            <h3 style="margin-left: 80px;margin-bottom:20px;font-weight:bold;">Explore Airbnb</h3>
+            <a href="https://www.airbnb.com/s/homes" target="blank">
+            <div class="explore">
+                <img src="explore.jpg" width="130px" height="85px">
+                <h3 class="exploreid">Stays</h3>
+            </div>
+            </a>
+            <a href="https://www.airbnb.com/s/experiences" target="blank">
+            <div class="explore1">
+                <img src="explore1.jpg" width="130px" height="85px">
+                <h3 class="exploreid">Experiences</h3>
+            </div>
+            </a>
+            <a href="https://www.airbnb.com/s/adventures" target="blank">
+            <div class="explore2">
+                <img src="explore2.jpg" width="130px" height="85px">
+                <h3 class="exploreid">Adventures</h3>
+            </div>
+            </a><div class="clear-div"></div><hr>
+            <!--This section contains: about, community,support, host -->
+            <div class="sec1">
+                <h5 style="margin-left: 80px;"><b>ABOUT</b></h5><br>
+                <ul>
+                    <li><a href="https://www.airbnb.com/diversity" target="new">Diversity & Belonging</a></li><br>
+                    <li><a href="https://www.airbnb.com/accessibility" target="new">Accesibility</a></li><br>
+                    <li><a href="https://www.airbnb.com/trust" target="new">Trust & Safety</a></li><br>
+                    <li><a href="https://www.airbnbcitizen.com/?utm_source=airbnb&utm_medium=footer&utm_campaign=product" target="new">Airbnb Citizen</a></li><br>
+                    <li><a href="https://www.airbnb.com/press/news" target="new">Newsroom</a></li><br>
+                </ul>
+            </div>
+            <div class="sec2">
+                <h5><b>COMMUNITY</b></h5><br>
+                <ul>
+                    <li><a href="https://www.airbnb.com/magazine" target="new">Airbnb Megazine</a></li><br>
+                    <li><a href="https://www.airbnb.com/work?s=footer" target="new">Airbnb for work</a></li><br>
+                    <li><a href="https://www.airbnb.com/invite?r=6" target="new">Invite freinds</a></li><br>
+                    <li><a href="https://www.airbnb.com/gift?s=footer" target="new">Gift cards</a></li><br>
+                    <li><a href="https://www.airbnb.com/careers" target="new">Careers</a></li><br>
+                </ul>
+            </div>
+            <div class="sec3">
+                <h5><b>HOST</b></h5><br>
+                <ul>
+                    <li><a href="https://www.airbnb.com/host/homes?from_footer=1" target="new">Host your home</a></li><br>
+                    <li><a href="https://www.airbnb.com/host/experiences?from_footer=1" target="new">Host an experienc</a></li><br>
+                    <li><a href="https://www.airbnb.com/help/responsible-hosting" target="new">Responsible hosting</a></li><br>
+                    <li><a href="https://www.airbnb.com/openhomes?from_footer=1" target="new">Open Homes</a></li><br>
+                    <li><a href="https://www.airbnb.com/d/olympics" target="new">Olympics</a></li><br>
+                    <li><a href="https://www.airbnb.com/resources" target="new">Resource Center</a><li><br>
+                </ul>
+            </div>
+            <div class="sec4">
+                <h5><b>SUPPORT</b></h5><br>
+                <ul>
+                    <li><a href="https://www.airbnb.com/help?from=footer" target="new">Help Center</a></li><br>
+                    <li><a href="https://www.airbnb.com/neighbors" target="new">Neighborhood Support</a></li><br>
+                </ul>
+            </div>
+            <div class="clear-div"></div>
+        </main>
+        <!--This section contain : site copright, site, privacy,terms, sitemap , language , usd, facebook, twiteer, instagram link-->
+        <footer>
+            <p></p><hr style="margin-top: 5px; margin-left: 80px; margin-right: 80px; margin-bottom: 2px; border: solid #ddd 0.5px;">
+            <div class="footer1">
+                <p style="margin-left: 80px;">&copy; Copyright 2020 Airbnb,Inc. All rights reserved</p>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <li><b> ∙ </b>&nbsp;<a href="https://www.airbnb.com/terms/privacy_policy" target="new1">Privacy</a></li>
+                    <li><b> ∙ </b>&nbsp;<a href="https://www.airbnb.com/terms" target="new1">Terms</a></li>
+                    <li><b> ∙ </b>&nbsp;<a href="https://www.airbnb.com/sitemaps/v2" target="new1">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <p style="color: black; margin-left: 200px;"></p>
+                <a href="https://www.airbnb.com/account-settings/language" target="-blank" id="footer3-a1">🌐&nbsp;</a>
+                <a href="https://www.airbnb.com/account-settings/language" target="-blank" id="footer3-a2">English(US)</a>
+                <a href="https://www.airbnb.com/account-settings/currency" target ="-blank" id="footer3-a3"> $</a>
+                <a href="https://www.airbnb.com/account-settings/currency" target="-blank" id="footer3-a4">USD </a>
+                <a href="https://web.facebook.com/airbnb?_rdc=1&_rdr" target="blank" id="footer3-a5"><i style="font-size:24px" class="fa"></i></a>
+                <a href="https://twitter.com/airbnb" target="blank" id="footer3-a6"><i style="font-size:24px" class="fa"></i></a>
+                <a href="https://www.instagram.com/airbnb/" target="blank" id="footer3-a7"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>
